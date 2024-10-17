@@ -34,7 +34,7 @@
 			<br>
 
 		<?php
-		$connection_string = "database-dhanya.cpuog002uq5v.us-east-1.rds.amazonaws.com port=5432 dbname=postgres user=postgres password=Dhanya1508";
+		$connection_string = "dhanya-database.cpuog002uq5v.us-east-1.rds.amazonaws.com port=5432 dbname=postgres user=postgres password=Dhanya1508";
 		$connection = pg_connect($connection_string) or die("Could not connect to the database: " . pg_last_error());
 
 
